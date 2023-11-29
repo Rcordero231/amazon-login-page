@@ -18,6 +18,7 @@
     flex-direction: column;
     border: 1px solid darkgrey;
     margin: 20px auto 20px;
+    border-radius: 2px;
 }
 
 .signin h1 {
@@ -66,6 +67,10 @@
     text-align: center;
 }
 
+footer {
+    margin-top: 10%;
+}
+
 .links {
     border-top: 1px solid lightgray;   
     width: auto;
@@ -73,5 +78,10 @@
     padding: auto;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
 }
