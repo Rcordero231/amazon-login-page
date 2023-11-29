@@ -1,0 +1,77 @@
+.amazonlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazonlogo img {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+.signin {
+    width: 290px;
+    height: 240px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid darkgrey;
+    margin: 20px auto 20px;
+}
+
+.signin h1 {
+    font-weight: 350;
+    font-size: 27px;
+}
+
+.signin label {
+    font-size: 13px;
+    padding-left: 2px;
+    font-weight: 700;
+    margin-right: 63px;
+}
+
+.signin input {
+    width: 270px;
+    height: 25px;
+    padding: 3px 6px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+}
+
+.signin button {
+    width: 285px;
+    height: 23px;
+    margin-top: 15px;
+    background-color: orange;
+    border: 1px solid darkgray;
+}
+
+.signin p, .signin p a{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+.new-amazon {
+    width: 285px;
+    height: 23px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px auto 20px;
+    text-align: center;
+}
+
+.links {
+    border-top: 1px solid lightgray;   
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
